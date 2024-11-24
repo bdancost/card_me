@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header {
+  background-color: yellowgreen;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #07078a;
+}
+
+.logo {
+  width: 305px;
+  height: 70px;
+}
+
+.link {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #07078a;
+  margin: 0 10px;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.dia {
+  width: 50px;
+  height: 50px;
+  filter: invert(1) brightness(2);
+}
+
+.noite {
+  width: 50px;
+  height: 50px;
+  filter: invert(1) brightness(2);
+}
+
+.stage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  height: 480px;
+  border: 1px solid darkgrey;
+  margin: auto;
+  border-radius: 1rem;
+  overflow: hidden;
+  background-image: url("/assets/cartoes/ceus_estrelado.avif");
+  background-position-y: bottom;
+  animation: landscape 10s 1 ease-in-out both;
+}
+
+.avatar {
+  width: 60%;
+  position: relative;
+  top: -90px;
+  animation: start 3s ease-in-out infinite;
+  animation-delay: 1s;
+  background-color: #ffffff90;
+  box-shadow: #ffffff90 0px 5px 15px;
+  border-radius: 50%;
+}
+
+h1 {
+  font-size: 25px;
+  font-weight: 700;
+  padding: 10px;
+  position: relative;
+  top: -87px;
+  animation: start 3s ease-in-out infinite;
+  animation-delay: 1s;
+  box-shadow: #ffffff10 0px 5px 15px;
+  border-radius: 10px;
+  color: whitesmoke;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  top: -77px;
+  animation: start 3s ease-in-out infinite;
+  animation-delay: 1s;
+  color: whitesmoke;
+}
