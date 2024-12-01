@@ -228,3 +228,22 @@ span {
     height: 40px;
   }
 }
+
+@media (max-width: 480px) {
+  .header {
+    width: 100%;
+    padding: 5px 10px;
+  }
+
+  .logo {
+    width: 120px; /* Reduz ainda mais o tamanho do logo */
+  }
+
+  .icones {
+    position: relative;
+    top: -120px; /* Volta a posição do topo */
+    right: -160px;
+    width: auto; /* Remove o limite de largura */
+    gap: 10px; /* Ajusta o espaçamento entre ícones */
+  }
+}
