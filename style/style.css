@@ -246,9 +246,4 @@ span {
     width: auto; /* Remove o limite de largura */
     gap: 5px; /* Ajusta o espaçamento entre ícones */
   }
-
-  .stage {
-    width: 300px;
-    height: 450px;
-  }
 }
