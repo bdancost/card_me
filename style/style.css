@@ -19,7 +19,7 @@ body {
 }
 
 body.dark-mode {
-  background-color: black; /* Fundo escuro */
+  background-color: rgb(16, 7, 88); /* Fundo escuro */
   color: whitesmoke; /* Texto claro */
 }
 
