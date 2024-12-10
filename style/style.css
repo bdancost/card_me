@@ -214,7 +214,7 @@ span {
   .icones {
     position: relative;
     top: -100px; /* Volta a posição do topo */
-    right: -260px;
+    right: -240px;
     width: auto; /* Remove o limite de largura */
     gap: 10px; /* Ajusta o espaçamento entre ícones */
   }
@@ -223,6 +223,7 @@ span {
 /* Responsividade para telas muito pequenas */
 @media (max-width: 580px) {
   .header {
+    position: relative;
     width: 100%;
     padding: 5px 10px;
     margin-bottom: 10px;
@@ -237,9 +238,9 @@ span {
   }
 
   .icones {
-    position: relative;
-    top: -120px; /* Volta a posição do topo */
-    right: -180px;
+    position: absolute;
+    top: 10px; /* Volta a posição do topo */
+    right: 15px;
     width: auto; /* Remove o limite de largura */
     gap: 10px; /* Ajusta o espaçamento entre ícones */
   }
@@ -266,8 +267,8 @@ span {
   }
 
   .icones {
-    position: relative;
-    top: -120px; /* Volta a posição do topo */
+    position: absolute;
+    top: -100px; /* Volta a posição do topo */
     right: -160px;
     width: auto; /* Remove o limite de largura */
     gap: 5px; /* Ajusta o espaçamento entre ícones */
