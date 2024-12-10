@@ -1,3 +1,5 @@
+"use strict";
+
 const diaIcon = document.querySelector(".icones_dia");
 const noiteIcon = document.querySelector(".icones_noite");
 
