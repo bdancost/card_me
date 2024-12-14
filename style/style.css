@@ -134,7 +134,7 @@ h1 {
   font-weight: 700;
   padding: 10px;
   position: relative;
-  top: -30px;
+  top: -25px;
   box-shadow: #ffffff10 0px 5px 15px;
   border-radius: 10px;
   color: whitesmoke;
@@ -157,16 +157,20 @@ span {
 }
 
 .foguete {
-  animation: start 3s ease-in-out infinite;
+  position: relative;
+  animation: decolar 3s ease-in-out infinite;
   animation-delay: 1s;
 }
 
-@keyframes start {
+@keyframes decolar {
   0% {
-    background-position-y: bottom;
+    transform: translateY(0); /* Posição inicial */
+  }
+  50% {
+    transform: translateY(-50px); /* Sobe 50px */
   }
   100% {
-    background-position-y: top;
+    transform: translateY(0); /* Volta à posição inicial */
   }
 }
 
