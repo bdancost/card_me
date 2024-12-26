@@ -104,7 +104,7 @@ body.dark-mode .header {
   filter: invert(1) brightness(2);
 }
 
-.stage {
+.cartao {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -193,88 +193,4 @@ span {
 
 .logos:hover {
   transform: scale(1.2);
-}
-
-/* Responsividade para telas menores */
-@media (max-width: 768px) {
-  .header {
-    position: relative;
-    flex-direction: column; /* Empilha os itens verticalmente */
-    align-items: center; /* Centraliza os itens no eixo horizontal */
-    text-align: center; /* Centraliza o texto */
-    margin-bottom: 20px;
-  }
-
-  .logo {
-    width: 200px;
-    height: auto;
-    margin-bottom: 15px;
-  }
-
-  .link {
-    font-size: 20px;
-  }
-
-  .icones {
-    position: relative;
-    top: -100px; /* Volta a posição do topo */
-    right: -240px;
-    width: auto; /* Remove o limite de largura */
-    gap: 10px; /* Ajusta o espaçamento entre ícones */
-  }
-}
-
-/* Responsividade para telas muito pequenas */
-@media (max-width: 580px) {
-  .header {
-    position: relative;
-    width: 100%;
-    padding: 5px 10px;
-    margin-bottom: 10px;
-  }
-
-  .logo {
-    width: 150px; /* Reduz ainda mais o tamanho do logo */
-  }
-
-  .link {
-    font-size: 20px;
-  }
-
-  .icones {
-    position: absolute;
-    top: 10px; /* Volta a posição do topo */
-    right: 15px;
-    width: auto; /* Remove o limite de largura */
-    gap: 10px; /* Ajusta o espaçamento entre ícones */
-  }
-
-  .icones_dia,
-  .icones_noite {
-    width: 40px; /* Reduz tamanho dos ícones */
-    height: 40px;
-  }
-}
-
-@media (max-width: 480px) {
-  .header {
-    width: 100%;
-    padding: 5px 10px;
-  }
-
-  .logo {
-    width: 120px; /* Reduz ainda mais o tamanho do logo */
-  }
-
-  .link {
-    font-size: 18px;
-  }
-
-  .icones {
-    position: absolute;
-    top: -100px; /* Volta a posição do topo */
-    right: -160px;
-    width: auto; /* Remove o limite de largura */
-    gap: 5px; /* Ajusta o espaçamento entre ícones */
-  }
 }
